@@ -27,7 +27,7 @@ def wishme():
     elif hour ==22 and hour<24:
         speak("Good Night")
 
-    speak("I am savita bhabhi how can i help you lode")
+    speak("I am Sakura from Anime how can i help you")
 
 def takecommand():
     #its take microphonr input from the user and return string output
@@ -42,7 +42,7 @@ def takecommand():
          query=r.recognize_google(audio,language='en-in')
          print(f"User Said:{query}\n")
     except Exception as e:
-        print("Say it again gandu.............")
+        print("Can you say it Again")
         return "None"
 
     return query
